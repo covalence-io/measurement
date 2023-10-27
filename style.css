@@ -1,0 +1,90 @@
+html,
+body {
+    font-size: 16px;
+    height: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+
+    html,
+    body {
+        font-size: 24px;
+    }
+}
+
+.container {
+    height: 100%;
+    font-size: 50%;
+}
+
+.box {
+    color: white;
+    text-align: center;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+.px {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.rem {
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.em {
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+    padding: 1em;
+    font-size: 50%;
+}
+
+.percent {
+    width: 8%;
+    height: 8%;
+    margin: 2%;
+    padding: 2%;
+}
+
+.vh {
+    width: 8vh;
+    height: 8vh;
+    margin: 2vh;
+    padding: 2vh;
+}
+
+.vw {
+    width: 8vw;
+    height: 8vw;
+    margin: 2vw;
+    padding: 2vw;
+}
